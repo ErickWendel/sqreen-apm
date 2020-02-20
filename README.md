@@ -1,4 +1,4 @@
-# NodeJS software engineer job offer exercise
+# Sqreen Agent
 
 This module is an instrumentation program responsible for add a custom Sqreen HTTP Header for all your requests.
 

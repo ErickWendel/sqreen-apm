@@ -5,13 +5,13 @@ This module is an instrumentation program responsible for add a custom Sqreen HT
 ## Getting started
 
 1. Install node. The agent runs on v10 and higher. Development work on this module is done with the latest stable release of Node.
-2. Install this module via `npm install @erickwendel/sqreen-agent` for the application you want to monitor.
+2. Install this module via `npm install sqreen-agent` for the application you want to monitor.
 3. Add `require('sqreen-agent').start()` as the first line of the app's main module
 
 ## Examples
 
 ```js
-require('@erickwendel/sqreen-agent').start()
+require('sqreen-agent').start()
 var http = require('http');
 
 function handleRequest(request, response) {

@@ -1,6 +1,6 @@
 {
   "name": "sqreen-agent",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Agent to intercept HTTP Responses.",
   "main": "index.js",
   "scripts": {

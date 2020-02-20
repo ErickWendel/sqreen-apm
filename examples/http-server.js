@@ -1,4 +1,4 @@
-require('./../index').start()
+require('./../').start()
 var http = require('http');
 
 function handleRequest(request, response) {

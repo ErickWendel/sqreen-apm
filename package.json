@@ -1,11 +1,11 @@
 {
   "name": "sqreen-agent",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Agent to intercept HTTP Responses.",
   "main": "index.js",
   "scripts": {
     "start": "node examples/http-server.js",
-    "test" : "node ./src/agent.test.js"
+    "test": "node ./src/agent.test.js"
   },
   "keywords": [],
   "author": "erickwendel",

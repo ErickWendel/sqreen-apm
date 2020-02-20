@@ -1,12 +1,11 @@
 {
-  "name": "sqreen-apm",
+  "name": "sqreen-agent",
   "version": "1.0.0",
-  "description": "APM to intercept HTTP Responses.",
+  "description": "Agent to intercept HTTP Responses.",
   "main": "index.js",
 
   "scripts": {
-    "start": "DEBUG=instrument npx nodemon index.js",
-    "test": "mocha -w"
+    "start": "node examples/http-server.js"
   },
   "keywords": [],
   "author": "erickwendel",

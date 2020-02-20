@@ -1,12 +1,5 @@
-require('./sqreen').start()
+const { start } = require('./src/agent')
 
-var Http = require('http');
-
-function handleRequest(request, response) {
-  response.end('Hello, world!');
+module.exports = {
+  start
 }
-
-var server = Http.createServer(handleRequest);
-
-server.listen(8888);
-

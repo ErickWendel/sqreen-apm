@@ -35,3 +35,9 @@ Date: Thu, 20 Feb 2020 02:53:2
 Connection: keep-alive
 Content-Length: 13
 ```
+
+## Testing
+
+```bash
+npm test
+```

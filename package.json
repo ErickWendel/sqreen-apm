@@ -4,9 +4,13 @@
   "description": "Agent to intercept HTTP Responses.",
   "main": "index.js",
   "scripts": {
-    "start": "node examples/http-server.js"
+    "start": "node examples/http-server.js",
+    "test" : "node ./src/agent.test.js"
   },
   "keywords": [],
   "author": "erickwendel",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "sinon": "^9.0.0"
+  }
 }

@@ -1,0 +1,14 @@
+{
+  "name": "sqreen-apm",
+  "version": "1.0.0",
+  "description": "APM to intercept HTTP Responses.",
+  "main": "index.js",
+
+  "scripts": {
+    "start": "DEBUG=instrument npx nodemon index.js",
+    "test": "mocha -w"
+  },
+  "keywords": [],
+  "author": "erickwendel",
+  "license": "ISC"
+}

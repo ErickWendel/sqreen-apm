@@ -1,7 +1,0 @@
-
-
-https://github.com/sqreen/funAPM
-https://blog.logrocket.com/experimental-node-js-testing-the-new-performance-hooks-31fcdd2a747e/
-https://medium.com/the-node-js-collection/async-hooks-in-node-js-illustrated-b7ce1344111f
-https://blog.sqreen.com/diy-node-apm/
-https://nodejs.org/api/async_hooks.html#async_hooks_overview
